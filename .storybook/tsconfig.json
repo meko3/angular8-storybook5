@@ -1,10 +1,5 @@
 {
   "extends": "../tsconfig.json",
-  "exclude": [
-    "../src/**/*.spec.ts",
-    "../src/environments/**/*",
-    "../src/main.ts",
-    "../src/polyfills.ts"
-  ],
+  "exclude": ["../src/**/*.spec.ts", "../src/environments/**/*"],
   "include": ["../src/**/*"]
 }
