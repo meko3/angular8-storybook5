@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook -c .storybook/config.js"
   },
   "private": true,
   "dependencies": {
@@ -29,8 +31,11 @@
     "@angular/cli": "~8.1.2",
     "@angular/compiler-cli": "~8.1.2",
     "@angular/language-service": "~8.1.2",
+    "@babel/core": "^7.5.5",
+    "@storybook/angular": "^5.1.9",
     "@types/jest": "^24.0.15",
     "@types/node": "~8.9.4",
+    "babel-loader": "^8.0.6",
     "codelyzer": "^5.0.0",
     "jest": "^24.8.0",
     "protractor": "~5.4.0",
